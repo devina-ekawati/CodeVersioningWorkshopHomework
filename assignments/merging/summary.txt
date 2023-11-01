@@ -1,3 +1,1 @@
-## Git Merge
-
 Git merge is a command that allows you to combine different branches of your Git repository. It takes the contents of a source branch and integrates it with the target branch. In the process, Git will determine the changes made to the source branch since it diverged from the target branch and then apply those changes to the target. If the same part of the same file was modified differently in the two branches, Git won't be able to merge them cleanly and will mark it as a conflict which you will need to resolve manually.
